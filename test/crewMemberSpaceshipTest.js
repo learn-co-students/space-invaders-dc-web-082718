@@ -16,6 +16,7 @@ describe('ship with a crew', () => {
 
   describe('crew member with a currentShip', () => {
     it('a newly created spaceship should be an instance of a spaceship', () => {
+      debugger
       expect(pilot.currentShip).to.be.an('object');
       expect(pilot.currentShip).to.be.an.instanceOf(Spaceship);
       expect(pilot.currentShip.constructor).to.be.a('function');
